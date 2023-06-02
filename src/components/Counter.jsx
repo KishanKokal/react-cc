@@ -6,7 +6,7 @@ function Counter() {
     <>
       <button
         onClick={() => {
-          setCounter(counter + 2);
+          setCounter((prevCounter) => prevCounter + 1);
         }}
       >
         +
@@ -14,7 +14,7 @@ function Counter() {
       {counter}
       <button
         onClick={() => {
-          setCounter(counter - 2);
+          setCounter((prevCounter) => prevCounter - 1);
         }}
       >
         -
