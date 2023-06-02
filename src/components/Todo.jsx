@@ -1,9 +1,9 @@
 import './Todo.css'
 
-function Todo() {
+function Todo(props) {
     return (
         <div className='test'>
-            <h2>Finish Frontend Simplified</h2>
+            <h2>{props.title}</h2>
             <button>Delete</button>
         </div>
     );

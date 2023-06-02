@@ -7,15 +7,9 @@ function App() {
     <div>
       <h1>My Todo List</h1>
       <div className='todo__wrapper'>
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
-        <Todo />
+        <Todo title = "Complete Frontend Simplified"/>
+        <Todo title = "Complete Interview Section"/>
+        <Todo title = "Get a 100k job"/>
       </div>
     </div>
   );
